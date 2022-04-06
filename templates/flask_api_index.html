@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/result" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" accept="image/png, image/jpeg, image/jpg">
+  <button type="submit">にゃにゃにゃんにゃん</button>
+</form>
+
+{% endblock %}
